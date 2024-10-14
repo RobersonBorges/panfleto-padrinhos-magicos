@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+header {
+  height: 20vh;
+  background-color: #111111;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 30vw;
+  height: 10vh;
+}
+header div .firstButton {
+  background-color: #df0712;
+  border: none;
+  width: 15vw;
+  height: 5vh;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 20px;
+}
+header div button {
+  background-color: #181818;
+  border: solid 1px;
+  border-color: white;
+  border-radius: 10px;
+  height: 5vh;
+  width: 10vw;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #181818;
+  height: 70vh;
+}
+
+.firstBox {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.firstBox img {
+  width: 8vw;
+}
+
+.secondBox {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+}
+.secondBox article {
+  width: 22vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.secondBox article img {
+  width: 20vw;
+}
+.secondBox article p {
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+.secondBox article h3 {
+  margin-top: 10px;
+}
+
+footer {
+  height: 10vh;
+  background-color: #111111;
+}
+footer ul {
+  margin-left: 20px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  width: 40vw;
+  height: 10vh;
+  font-weight: 700;
+  font-size: 1.1rem;
+}/*# sourceMappingURL=style.css.map */
